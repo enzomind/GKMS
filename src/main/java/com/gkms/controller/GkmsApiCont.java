@@ -1,4 +1,4 @@
-package com.gkms.Controller;
+package com.gkms.controller;
 
 public class GkmsApiCont {
 }

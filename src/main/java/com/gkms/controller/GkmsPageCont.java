@@ -1,4 +1,4 @@
-package com.gkms.Controller;
+package com.gkms.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
