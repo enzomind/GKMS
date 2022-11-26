@@ -27,14 +27,16 @@ public class User implements UserDetails {
     @Column(name = "USER_ID", nullable = false, length = 50, unique = true)
     private String userId;
 
+    @Column(name = "USER_NAME", length = 10)
+    private String userName;
+
     @Column(name = "USER_BIRTH", length = 6)
     private String userBirth;
 
     @Column(name = "GENDER", length = 2)
-    @Enumerated(EnumType.STRING)
     private String gender;
 
-    @Column(name = "ADMIN", length = 4)
+    @Column(name = "ADMIN", length = 2)
     private String admin;
 
     @ElementCollection(fetch = FetchType.EAGER)

@@ -1,14 +1,13 @@
-package com.gkms.controller;
+package com.gkms.login;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RestControllerBase {
+public class TestController {
 
     @PostMapping("/test")
     public String test() {
-
-        return "<h1>test 성공했따</h1>";
+        return "<h1>test 통과</h1>";
     }
 }
